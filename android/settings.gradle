@@ -1,0 +1,3 @@
+rootProject.name = 'albams'
+
+include ':app'
