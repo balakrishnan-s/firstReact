@@ -3,15 +3,16 @@ import { Text, View } from 'react-native';
 
 
 //Component
-const Header = () => {
+const Header = (probs) => {
   const { textStyle, viewStyle } = styles;
 
   return (
     <View style={viewStyle}>
-      <Text style={textStyle}>Albums! </Text>
+      <Text style={textStyle}>{probs.headerText}</Text>
     </View>
   );
 };
+
 const styles = {
   viewStyle: {
     backgroundColor: '#a8c6f7',
