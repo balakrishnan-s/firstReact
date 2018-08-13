@@ -11,7 +11,7 @@ const Cardsection = (probs) => {
 
 const styles = {
   containerStyle: {
-      borderBotomWidth: 1,
+      borderBottomWidth: 1,
       padding: 5,
       backgroundColor: '#fff',
       justifyContent: 'flex-start',
